@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Required Ruby version
+  3.2.0
 
-Things you may want to cover:
+* Required Node version
+  v18+
 
-* Ruby version
+* Dependencies
+  bundle install
+  cd frontend
+  yarn add
+  
+* Initialize Database
+  db:create
+  db:migrate
 
-* System dependencies
+* Run Rails API
+  rails s
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Run Frontend
+  npm run start
